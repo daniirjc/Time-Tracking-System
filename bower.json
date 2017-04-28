@@ -1,0 +1,7 @@
+{
+  "name": "testapp1",
+  "dependencies": {},
+  "devDependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
