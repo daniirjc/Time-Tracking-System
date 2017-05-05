@@ -1,5 +1,5 @@
 {
-  "name": "untitled",
+  "name": "time-tracking",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -23,5 +23,17 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "description": "Webanwendung zum Zeitmessen während eines Projekts",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniirjc/Time-Tracking-System.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daniirjc/Time-Tracking-System/issues"
+  },
+  "homepage": "https://github.com/daniirjc/Time-Tracking-System#readme"
 }
