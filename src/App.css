@@ -1,5 +1,18 @@
 .App {
   text-align: center;
+  margin: 0 auto;
+}
+
+.txtbar {
+  width: 300px;
+  margin: 0 auto;
+
+}
+
+.btnt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .App-logo {
