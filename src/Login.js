@@ -41,28 +41,31 @@ export default class Login extends Component {
 
   render () {
     return (
-      <form>
-      <FieldGroup
-          id="formControlsEmail"
-          type="email"
-          label="Email address"
-          value={this.state.email}
-          onChange={this.handleEmailInput}
-          placeholder="Enter Email"
-        />
-        <FieldGroup
-          id="formControlsPassword"
-          label="Password"
-          type="password"
-          onChange={this.handlePasswordInput}
-          value={this.state.password}
-          placeholder="Enter password"
-          required="true"
-        />
-        <Button className="btnt" onClick={this.onLogin}>
-          Login
-        </Button>
-      </form>
+      <div className="loginInput">
+        <form>
+          <FieldGroup
+              id="formControlsEmail"
+              type="email"
+              label="Email address"
+              value={this.state.email}
+              onChange={this.handleEmailInput}
+              placeholder="Enter Email"
+            />
+            <FieldGroup
+              id="formControlsPassword"
+              label="Password"
+              type="password"
+              onChange={this.handlePasswordInput}
+              value={this.state.password}
+              placeholder="Enter password"
+              required="true"
+            />
+              <Button onClick={this.onLogin}>
+                Login
+              </Button>
+        </form>
+      </div>
+
     );
   }
 }
